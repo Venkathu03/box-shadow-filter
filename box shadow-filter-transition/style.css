@@ -1,0 +1,48 @@
+div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    transition-timing-function: linear;
+}
+div:hover{
+    width: 300px;
+    
+}
+.width{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    transition: width 4s height 4s;
+    margin-top: 10px;
+}
+.width:hover{
+    width: 400px;
+    height: 400px;
+}
+.function{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    transition-duration: 2s;
+}
+#one{
+    transition-timing-function: linear;
+}
+#two{
+    transition-timing-function: ease;
+}
+#three{
+    transition-timing-function: ease-in;
+}
+#four{
+    transition-timing-function: ease-out;
+}
+#five{
+    transition-timing-function: ease-in-out;
+}
+.function:hover{
+    width: 400px;
+}
